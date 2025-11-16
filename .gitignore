@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Django cache
+*.cache
+cache/
+tmp/
+*.pid
+
+# Migrations (optional — many teams commit these)
+# **/migrations/
+# !**/migrations/__init__.py
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local environment variables
+.env*
+!.env.example
+
+# Coverage / testing
+.coverage
+*.cover
+htmlcov/
+pytest_cache/
+.tox/
+.nox/
+
